@@ -1,3 +1,5 @@
+
+ // Adapted Code from Google Simple Map https://developers.google.com/maps/documentation/javascript/examples/map-simple
 let map;
 
 async function initMap() {
