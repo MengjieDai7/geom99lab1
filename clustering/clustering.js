@@ -19,6 +19,9 @@ function initMap() {
   new MarkerClusterer(map, markers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+      gridSize: 30,
+      zoomOnClick: false,
+      maxZoom: 10,
   });
 }
 const locations = [
