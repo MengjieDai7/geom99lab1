@@ -22,13 +22,7 @@ margin-left: 15px;background-color: Seashell;}
 .index{text-align:center;}
 .intro{text-align:center; background-color:#FEF9E7; margin:60px; padding:25px; border: 3px solid #17575F;}
 
-#map {height: 100%; }
-
-html,body 
-{height: 100%;
-margin: 0;
-padding: 0;}
-
+#map {height: 20%; }
 
 a{letter-spacing: 2px;color: #17575F; font-family: Georgia, serif; font-size: 15px;}
 a:hover{color:#cc7a00}
