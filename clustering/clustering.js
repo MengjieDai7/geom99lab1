@@ -22,8 +22,6 @@ function initMap() {
   });
 }
 const locations = [
-
-  JavaScript
 { lat: 49.758123, lng: -92.65349},
 { lat: 45.442046, lng: -78.820583},
 { lat: 48.17812017, lng: -90.22694426},
