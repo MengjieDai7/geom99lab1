@@ -9,19 +9,14 @@ body {background-color: Seashell; margin-top: 20px,}
 h1 { letter-spacing: 2px;color: #17575F; font-family: Georgia, serif;
 margin-left: 15px;}
 
-/* W3schools said to that constrasting fonts can look good e.g. serif and sans serif style so I picked fonts that meshed well 
-together */
-
 h2 { letter-spacing: 2px; color: #17575F; font-family: Georgia, serif;
 margin-left: 15px;}
 
 h3 { letter-spacing: 2px;color: #17575F; font-family: Georgia, serif;
 margin-left: 15px; font-size: 20px;}
 
-
 p{ line-height: 1.5; font-family: Noto Sans, sans-serif;
 margin-left: 15px;background-color: Seashell;}
-
 
 .bio{margin-bottom: 50px}
 
@@ -50,6 +45,8 @@ async function initMap() {
     zoom: 10,
   });
 }
+window.initMap = initMap;
+	
 </script>	
 
 </head>
