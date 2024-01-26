@@ -91,12 +91,13 @@
             });
 		
 	//Animated Markers 
-		function toggleBounce() {
-	  if (marker.getAnimation() !== null) {
-	    marker.setAnimation(null);
-	  } else {
-	    marker.setAnimation(google.maps.Animation.BOUNCE);
-	  }
+			function toggleBounce(marker) {
+		  if (marker.getMarker().getAnimation() !== null) {
+		    marker.getMarker().setAnimation(null);
+		  } else {
+		    marker.getMarker().setAnimation(google.maps.Animation.BOUNCE);
+		  }
+		}	
 	}
         });
         }
