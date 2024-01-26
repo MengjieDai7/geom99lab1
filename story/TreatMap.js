@@ -11,4 +11,3 @@ async function initMap() {
   });
 }
 
-initMap();
