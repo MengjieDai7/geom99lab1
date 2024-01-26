@@ -36,10 +36,11 @@
 	<title>Dog Treats</title>
 	<script let map;
 	
-	async function initMap() {const { Map } = await google.maps.importLibrary("maps");
+	async function initMap() 
+		{const { Map } = await google.maps.importLibrary("maps");
 	  map = new Map(document.getElementById("mapid"), {
-	    center: { lat: 43.695, lng: -79.413 },
-	    zoom: 10,
+	   	 center: { lat: 43.695, lng: -79.413 },
+	   	 zoom: 10,
 	  });
 	}
 	window.initMap = initMap;	
