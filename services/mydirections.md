@@ -9,8 +9,7 @@ Be creative and use multiple parameters from the API documentation to earn a top
 ## Directions URL
 
 ```
-https://maps.googleapis.com/maps/api/directions/json?origin=place_id%3AChIJE-Xa87o0K4gRkvXFHuE0hMk&destination=place_id%3AChIJCb81WSvL1IkREJRm1efQQlg&avoid=tolls&mode=driving&traffic_model=pessimistic&departure_time=1708876800&units=metric
-&waypoints=side_of_road%3Avia%3Aplace_id%3AChIJV1e45Mw0K4gRuNleFxkZTZs%7Cplace_id%3AChIJW3ZtPDHL1IkRblt1I9l1dXs%7Cplace_id%3AChIJQ5PH7jnL1IkRvVTEZgzih3Y&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+https://maps.googleapis.com/maps/api/directions/json?origin=place_id%3AChIJE-Xa87o0K4gRkvXFHuE0hMk&destination=place_id%3AChIJCb81WSvL1IkREJRm1efQQlg&avoid=tolls&mode=driving&traffic_model=pessimistic&departure_time=1708876800&waypoints=side_of_road%3Avia%3Aplace_id%3AChIJV1e45Mw0K4gRuNleFxkZTZs%7Cplace_id%3AChIJW3ZtPDHL1IkRblt1I9l1dXs%7Cplace_id%3AChIJQ5PH7jnL1IkRvVTEZgzih3Y&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
 
 Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository
