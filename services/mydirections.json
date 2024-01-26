@@ -1,1 +1,926 @@
-Remove this text and paste your JSON results from the Directions API
+{
+   "geocoded_waypoints" : 
+   [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJE-Xa87o0K4gRkvXFHuE0hMk",
+         "types" : 
+         [
+            "establishment",
+            "museum",
+            "point_of_interest",
+            "tourist_attraction"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJV1e45Mw0K4gRuNleFxkZTZs",
+         "types" : 
+         [
+            "street_address"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJW3ZtPDHL1IkRblt1I9l1dXs",
+         "types" : 
+         [
+            "premise"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJQ5PH7jnL1IkRvVTEZgzih3Y",
+         "types" : 
+         [
+            "street_address"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJCb81WSvL1IkREJRm1efQQlg",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "stadium"
+         ]
+      }
+   ],
+   "routes" : 
+   [
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 43.6679186,
+               "lng" : -79.36475299999999
+            },
+            "southwest" : 
+            {
+               "lat" : 43.6424423,
+               "lng" : -79.3939123
+            }
+         },
+         "copyrights" : "Map data ©2024 Google",
+         "legs" : 
+         [
+            {
+               "distance" : 
+               {
+                  "text" : "4.2 km",
+                  "value" : 4240
+               },
+               "duration" : 
+               {
+                  "text" : "20 mins",
+                  "value" : 1229
+               },
+               "end_address" : "111 Lombard St, Toronto, ON M5C 2T9, Canada",
+               "end_location" : 
+               {
+                  "lat" : 43.65206980000001,
+                  "lng" : -79.37256260000001
+               },
+               "start_address" : "100 Queens Park, Toronto, ON M5S 2C6, Canada",
+               "start_location" : 
+               {
+                  "lat" : 43.6679186,
+                  "lng" : -79.39380849999999
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 238
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 51
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6658866,
+                        "lng" : -79.3933335
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eQueens Park\u003c/b\u003e toward \u003cb\u003eCharles St W\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "o{oiGhrqcNDA\\Kx@W\\MDADATG\\MPGt@URGd@O@ANHJCF?F?B@D@B@DBB@BBBBBB@BBB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6679186,
+                        "lng" : -79.39380849999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.7 km",
+                        "value" : 665
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 106
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.66062669999999,
+                        "lng" : -79.3911387
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eQueens Pk Cres W\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ynoiGhoqcN`@l@HJJLXNVLTHJ@T@H?F?HAFAHC^KLEJCBAXILC\\KTG\\KTGt@Sp@S`@K@Ad@Mp@SLEJEPKJIpA}@PKDEHEDCDCHEJCTINEHCLGLGHEDEJIBAHIJOLSJUJUFODKBIPu@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6658866,
+                        "lng" : -79.3933335
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "62 m",
+                        "value" : 62
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 8
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6608359,
+                        "lng" : -79.39045000000002
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eQueens Park\u003c/b\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : 
+                     {
+                        "points" : "}mniGraqcN?QAY?GAEAIACACIQUk@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.66062669999999,
+                        "lng" : -79.3911387
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 113
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 17
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6617465,
+                        "lng" : -79.3898756
+                     },
+                     "html_instructions" : "\u003cb\u003eQueens Park\u003c/b\u003e turns slightly \u003cb\u003eleft\u003c/b\u003e and becomes \u003cb\u003eQueen's Park Cres E\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "goniGh}pcN_@c@c@YGIQIWKSISEWC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6608359,
+                        "lng" : -79.39045000000002
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 294
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 61
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6624785,
+                        "lng" : -79.3863703
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eGrosvenor St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "}tniGvypcNA]?GAGEWMeAKaACQCSAGa@yCi@}DWiB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6617465,
+                        "lng" : -79.3898756
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.2 km",
+                        "value" : 1193
+                     },
+                     "duration" : 
+                     {
+                        "text" : "4 mins",
+                        "value" : 238
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6521665,
+                        "lng" : -79.3823604
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eBay St.\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "oyniGxcpcNDA|@[^MHCFA@?v@EF?NAHAJCf@M`AWp@Uh@QRIr@U^Kl@Qr@YHCPGHCdBg@PEPKnA_@|CaAbA[dA[b@Of@O\\K@A@?HCFAl@ONCTIj@SZKNE`@MTGPGbA[JCjA[^KVKTG^K`@Mv@Uz@Uj@It@U"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6624785,
+                        "lng" : -79.3863703
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 205
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 48
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.65133240000001,
+                        "lng" : -79.3842963
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eQueen St W\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "ayliGvjocNJDD@D?HCHADAB?HDRFF^VlBHj@@JN`AHn@L|@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6521665,
+                        "lng" : -79.3823604
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "65 m",
+                        "value" : 65
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 15
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.65188939999999,
+                        "lng" : -79.38453679999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eQueen St W\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "ysliGzvocNA?_@LmA`@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.65133240000001,
+                        "lng" : -79.3842963
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "65 m",
+                        "value" : 65
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 25
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.65133240000001,
+                        "lng" : -79.3842963
+                     },
+                     "html_instructions" : "Make a \u003cb\u003eU-turn\u003c/b\u003e",
+                     "maneuver" : "uturn-left",
+                     "polyline" : 
+                     {
+                        "points" : "iwliGjxocNlAa@^M@?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.65188939999999,
+                        "lng" : -79.38453679999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 215
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 136
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6518897,
+                        "lng" : -79.38173239999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eQueen St W\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "ysliGzvocNM}@Io@OaAAKIk@WmBG_@[kC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.65133240000001,
+                        "lng" : -79.3842963
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 278
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 166
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6495563,
+                        "lng" : -79.3806335
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eBay St.\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "iwliGxfocN@G@C@E@C@C@ABC@CBAxBo@hBi@VIlA_@n@U`@MJCRI"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6518897,
+                        "lng" : -79.38173239999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "39 m",
+                        "value" : 39
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 59
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6498929,
+                        "lng" : -79.380774
+                     },
+                     "html_instructions" : "Make a \u003cb\u003eU-turn\u003c/b\u003e at \u003cb\u003eLane South Adelaide East Bay\u003c/b\u003e",
+                     "maneuver" : "uturn-left",
+                     "polyline" : 
+                     {
+                        "points" : "whliG|_ocNSHKBa@L"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6495563,
+                        "lng" : -79.3806335
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.5 km",
+                        "value" : 492
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 156
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.651172,
+                        "lng" : -79.374922
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at the 1st cross street onto \u003cb\u003eAdelaide St W\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "yjliGx`ocNe@iDGg@EUMcACSEUIk@SuAM{@?AGa@K{@OiAAG_@wCWmBS}AUgB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6498929,
+                        "lng" : -79.380774
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "74 m",
+                        "value" : 74
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 43
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.65181159999999,
+                        "lng" : -79.3751881
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eChurch St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "yrliGf|mcN_Ct@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.651172,
+                        "lng" : -79.374922
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 210
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 82
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6523485,
+                        "lng" : -79.3726806
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at the 1st cross street onto \u003cb\u003eLombard St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "yvliG|}mcNsAaKCUAKQqA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.65181159999999,
+                        "lng" : -79.3751881
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "32 m",
+                        "value" : 32
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 18
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.65206980000001,
+                        "lng" : -79.37256260000001
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eJarvis St\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "ezliGfnmcNv@W"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6523485,
+                        "lng" : -79.3726806
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : 
+               [
+                  {
+                     "location" : 
+                     {
+                        "lat" : 43.651866,
+                        "lng" : -79.3845267
+                     },
+                     "step_index" : 8,
+                     "step_interpolation" : 0.04206534475088294
+                  }
+               ]
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "1.1 km",
+                  "value" : 1119
+               },
+               "duration" : 
+               {
+                  "text" : "4 mins",
+                  "value" : 229
+               },
+               "end_address" : "323 Richmond St E, Toronto, ON M5A 4R3, Canada",
+               "end_location" : 
+               {
+                  "lat" : 43.65352070000001,
+                  "lng" : -79.3685146
+               },
+               "start_address" : "111 Lombard St, Toronto, ON M5C 2T9, Canada",
+               "start_location" : 
+               {
+                  "lat" : 43.65206980000001,
+                  "lng" : -79.37256260000001
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "62 m",
+                        "value" : 62
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 28
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6515399,
+                        "lng" : -79.37234269999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eJarvis St\u003c/b\u003e toward \u003cb\u003eAdelaide St E\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "mxliGnmmcNJCv@Wd@O"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.65206980000001,
+                        "lng" : -79.37256260000001
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.6 km",
+                        "value" : 636
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 105
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6529852,
+                        "lng" : -79.36475299999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eAdelaide St E\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "culiGblmcNDe@@YBW?O?I?MAMAQAKESMaAe@aDMoAEW[gCQwAIs@Ik@M}@My@E[SsA?AWgBIo@WkBQuAAGSuA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6515399,
+                        "lng" : -79.37234269999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 150
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 49
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6542703,
+                        "lng" : -79.36530639999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eBerkeley St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "e~liGt|kcN{@Z]JODyAf@{@X"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6529852,
+                        "lng" : -79.36475299999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 271
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 47
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.65352070000001,
+                        "lng" : -79.3685146
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eRichmond St E\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "efmiGd`lcNRfAZxBRtANbAHn@Lz@RpATdB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6542703,
+                        "lng" : -79.36530639999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "2.1 km",
+                  "value" : 2111
+               },
+               "duration" : 
+               {
+                  "text" : "9 mins",
+                  "value" : 532
+               },
+               "end_address" : "40 Bay St., Toronto, ON M5J 2X2, Canada",
+               "end_location" : 
+               {
+                  "lat" : 43.6431117,
+                  "lng" : -79.38014609999999
+               },
+               "start_address" : "323 Richmond St E, Toronto, ON M5A 4R3, Canada",
+               "start_location" : 
+               {
+                  "lat" : 43.65352070000001,
+                  "lng" : -79.3685146
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "51 m",
+                        "value" : 51
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 10
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.653381,
+                        "lng" : -79.36911859999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eRichmond St E\u003c/b\u003e toward \u003cb\u003eMcFarrens Ln\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "oamiGdtlcN@DXrB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.65352070000001,
+                        "lng" : -79.3685146
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 348
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 134
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6503858,
+                        "lng" : -79.36786119999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eSherbourne St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "s`miG~wlcNJEJCjA]d@MRIzAg@fA]j@Qv@U^K\\KTKRGTIp@W"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.653381,
+                        "lng" : -79.36911859999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 443
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 118
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6465876,
+                        "lng" : -79.3661929
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eLower Sherbourne St\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "}mliGbplcNf@Ql@SJCb@OXKb@OdA]PGHA^MTIf@OVI~Ai@DCZKx@[HCVK`@MNENITId@O"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6503858,
+                        "lng" : -79.36786119999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 325
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 103
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6457503,
+                        "lng" : -79.37006649999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eLake Shore Blvd W\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "evkiGtelcNT|A\\dCHp@^jCR~A\\nCPtAD^"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6465876,
+                        "lng" : -79.3661929
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.8 km",
+                        "value" : 840
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 141
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6424423,
+                        "lng" : -79.3793142
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eLake Shore Blvd W\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "}pkiG|}lcNb@dDRxAHn@p@lF|@|GHh@J`@Jf@Rr@Lb@HTN\\Xx@HTTf@h@nAt@nBDJFNHP@D|@zBRf@Tf@~@vB^x@DJBD"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6457503,
+                        "lng" : -79.37006649999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 104
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6431117,
+                        "lng" : -79.38014609999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eBremner Blvd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eRaptors Way\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "g|jiGtwncNCJCDAJADENCNEJEDEDA@GBKFIFA?EBIFSPGDKJCD"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6424423,
+                        "lng" : -79.3793142
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "o{oiGhrqcNzDmA`Cu@PFRCTDPLj@x@TXp@\\`@J^@b@GxCy@vGkBXK\\UhBoATMz@Yn@Y^[d@y@\\{@Pu@?QAa@GW_@}@_@c@c@YYSk@Uk@IAe@UeBUoBkAwIWiBDA|Ai@PEpAG~Bk@bDgA`Cw@jCw@b@QlFaBtEwAj@QzA_@xBs@vBo@jBg@l@StDeAj@It@UPF^GLDRFF^`@xCPlAVlBa@LmA`@lAa@`@Mi@{DeAeIFUHM~FeBjDgARISHm@PaAkHiAgIiAwIi@eE_Ct@sAaKEa@QqAv@WbA[d@ODe@Dq@?YEy@gAgI}@kHaBmL_A_HcEtA{@XRfAn@nEz@`GVjBXrBJEvAa@x@WfGmBfBk@|CgAlBo@vHcC~DyAz@Yr@bFzAlLnAtJbCdRVhA`@vA|@bCnCzGpAbDtA~Cd@dABDCJEPGTIZKJ_@Te@\\WV"
+         },
+         "summary" : "Bay St.",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
