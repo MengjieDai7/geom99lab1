@@ -3,7 +3,7 @@
 let map;
 
 async function initMap() {
-  const { Map } = await google.maps.importLibrary("maps");
+  const { Map } = await window.google.maps.importLibrary("maps");
 
   map = new Map(document.getElementById("mapid"), {
     center: { lat: 43.695, lng: -79.413 },
