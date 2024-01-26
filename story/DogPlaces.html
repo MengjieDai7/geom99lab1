@@ -87,6 +87,15 @@
             infoWindow.setContent(marker.title);
             infoWindow.open(marker.map, marker);
             });
+		
+	//Animated Markers 
+		function toggleBounce() {
+	  if (marker.getAnimation() !== null) {
+	    marker.setAnimation(null);
+	  } else {
+	    marker.setAnimation(google.maps.Animation.BOUNCE);
+	  }
+	}
         });
         }
 
